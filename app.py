@@ -191,7 +191,7 @@ st.markdown("""
 st.markdown("""
 <div class="main-header">
     <h1>📘 TRỢ LÝ SOẠN GIÁO ÁN TỰ ĐỘNG (NLS)</h1>
-    <p>Tác giả: Xìn Văn Duy - Trường PTDTBT Tiểu học Tân Lập, - ĐT: 0383541293</p>
+    <p>Tác giả: Xìn Văn Duy - Trường PTDTBT Tiểu học Tân Lập, - ĐT: 0384541293</p>
 </div>
 """, unsafe_allow_html=True)
 
