@@ -348,3 +348,10 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
 # --- CHÂN TRANG ---
 st.markdown("---")
 st.markdown("<div style='text-align: center; color: #666;'>© 2025 - Xìn Văn Duy - Trường PTDTBT Tiểu học Tân Lập - ĐT: 0384541293</div>", unsafe_allow_html=True)
+api_key = st.text_input("Nhập API Key", type="password")
+
+if api_key:
+    genai.configure(api_key=api_key)
+    model = genai.GenerativeModel("models/gemini-1.5-flash")
+
+    # CHỈ gọi model.generate_content() Ở TRONG IF
